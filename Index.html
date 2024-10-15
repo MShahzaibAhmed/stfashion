@@ -1,0 +1,704 @@
+﻿<!doctype html>
+<html>
+
+<head>
+  <title>Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="fontawesome-free-5.10.2-web/fontawesome-free-5.10.2-web/css/all.min.css">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="JQuery/jquery-3.4.1.min.js"></script>
+  <script src="JQuery/jquery.js"></script>
+</head>
+
+<body>
+
+  <div id="preloader">
+    <div id="status"></div>
+  </div>
+  <main>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-circle-up"></i></button>
+
+
+    <nav class="nav navbar-inverse">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#show" style="margin-top: 35px;">
+        <span class="icon-bar"> </span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <div class="navbar-header"> <img src="img/logo.png" class="navbar-brand" style="margin-left:20px"></div>
+      <div class="collapse navbar-collapse" id="show">
+        <ul class="nav navbar-nav">
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="#" class="dropdown acat" data-toggle="dropdown">Categories<span class="caret"></span> </a>
+            <ul class="dropdown-menu">
+
+              <li><a href="Mens.html">Mens</a></li>
+              <li><a href="Womens.html">Womens</a></li>
+              <li><a href="Kids.html">Kids</a></li>
+              <li><a href="Bags.html">Bags</a></li>
+              <li><a href="Jewellery.html">Jewellery</a></li>
+              <li><a href="Glasses.html">Glasses</a></li>
+              <li><a href="COsmatics.html">Cosmatics</a></li>
+
+            </ul>
+          </li>
+          <li><a href="#" class="dropdown apage" data-toggle="dropdown">Pages <span class="caret"></span> </a>
+            <ul class="dropdown-menu">
+
+              <li><a href="Team member.html">Team member</a></li>
+              <li><a href="Faqs.html">Faqs</a></li>
+              <li><a href="Blog.html">Blog</a></li>
+            </ul>
+          </li>
+          <li><a href="Services.html" class="asc">Services</a></li>
+          <li><a href="Contact.html" class="asc">Contact</a></li>
+          <li><a href="About.html">About</a></li>
+        </ul>
+        <div class="topnav" style="float: right;">
+          <div class="search-container">
+            <form>
+              <input type="text" placeholder="Search.." name="search">
+              <button><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active slider"> <img src="Slider/slide1.jpg" style="width: 100%;height: 100%;"
+            class="img-responsive"> </div>
+        <div class="item slider"> <img src="Slider/slide2.jpg" style="width: 100%;height: 100%;" class="img-responsive">
+        </div>
+        <div class="item slider"> <img src="Slider/slide3.jpg" style="width: 100%;height: 100%;" class="img-responsive">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span> <span class="sr-only">Previous</span> </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span> <span class="sr-only">Next</span> </a>
+    </div>
+    <section class="container-fluid">
+      <section class="feature-categories section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12 mt">
+              <div class="feature-item-content">
+                <div class="hoverimg"> <img src="img/img1.jpg" alt=""></div>
+                <div class="feature-content">
+                  <div class="banner-text">
+                    <h4>Men Sale</h4>
+                    <p>New Collection</p>
+                  </div>
+                  <a href="Mens.html" class="btn btn-common">Shop Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12 mt">
+              <div class="feature-item-content">
+                <div class="hoverimg"> <img src="img/img3.jpg" alt=""></div>
+                <div class="feature-content">
+                  <div class="banner-text">
+                    <h4>Women's</h4>
+                    <p>Upt <span>40%</span> OFF</p>
+                  </div>
+                  <a href="Womens.html" class="btn btn-common">Shop Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="feature-item-content mb-30 mt">
+                <div class="hoverimg"> <img src="img/img2.jpg" alt=""></div>
+                <div class="feature-content" style="margin-top:40px">
+                  <div class="banner-text accessories">
+                    <h4>Women's Backpacks</h4>
+                    <p>View Collection</p>
+                  </div>
+                  <a href="Bags.html" class="btn btn-common">Shop Now</a>
+                </div>
+              </div>
+              <div class="feature-item-content" style="margin-top:30px">
+                <div class="hoverimg"> <img src="img/img4.jpg" alt=""></div>
+                <div class="feature-content" style="margin-top:40px">
+                  <div class="banner-text accessories">
+                    <h4>Men's sunglasses</h4>
+                    <p>View Collection</p>
+                  </div>
+                  <a href="Glasses.html" class="btn btn-common">Shop Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="row mt">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h1 class="text-center"><b>New Arrivals</b>
+          </h1>
+          <hr class="lines">
+        </div>
+      </div>
+      <div class="row mb mt">
+        <div class="col-lg-3 col-xs-6 mb mt">
+          <div class="box3">
+            <div class="box21"> <img src="img/img-01.jpg" class="img-responsive">
+              <div class="hover_box"> <i class="fas fa-shopping-cart"
+                  style="height: 50px;width: 50px;background: #FFF;  line-height: 50px;margin-left: 5px;"></i><i
+                  class="fas fa-heart"
+                  style="height: 50px;width: 50px;background: #FFF;  line-height: 50px;  line-height: 50px;margin-left: 5px"></i>
+                <a class="btn-quickview md-trigger" data-modal="modal-3"><i class="fas fa-eye"
+                    style="height: 50px;width: 50px;background: #FFF;  line-height: 50px;  line-height: 50px;margin-left: 5px"></i></a>
+              </div>
+            </div>
+            <div class="boxd">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h4><a class="a ml">Qui Ratione Volup</a></h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6"><span class="ml">$49.00</span></div>
+                <div class="col-lg-6">
+                  <div class="reviews-icon"> <i class="i-color fa fa-star"></i> <i class="i-color fa fa-star"></i> <i
+                      class="i-color fa fa-star"></i> <i class="i-color fa fa-star"></i> <i class="fa fa-star-o"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-xs-6 mb mt">
+          <div class="box3">
+            <div class="box21"> <img src="img/img-03.jpg" class="img-responsive">
+              <div class="hover_box"> <i class="fas fa-shopping-cart"
+                  style="height: 50px;width: 50px;background: #FFF;  line-height: 50px;margin-left: 5px;"></i><i
+                  class="fas fa-heart"
+                  style="height: 50px;width: 50px;background: #FFF;  line-height: 50px;  line-height: 50px;margin-left: 5px"></i>
+                <i class="fas fa-eye"
+                  style="height: 50px;width: 50px;background: #FFF;  line-height: 50px;  line-height: 50px;margin-left: 5px"></i>
+              </div>
+            </div>
+            <div class="boxd">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h4><a class="a ml">Qui Voluptus sit</a></h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6"><span class="ml">$49.00</span></div>
+                <div class="col-lg-6">
+                  <div class="reviews-icon"> <i class="i-color fa fa-star"></i> <i class="i-color fa fa-star"></i> <i
+                      class="i-color fa fa-star"></i> <i class="i-color fa fa-star"></i> <i class="fa fa-star-o"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-xs-6 mb mt">
+          <div class="box3">
+            <div class="box21"> <img src="img/img-06d.jpg" class="img-responsive">
+              <div class="hover_box"> <i class="fas fa-shopping-cart"
+                  style="height: 50px;width: 50px;background: #FFF;  line-height: 50px;margin-left: 5px;"></i><i
+                  class="fas fa-heart"
+                  style="height: 50px;width: 50px;background: #FFF;  line-height: 50px;  line-height: 50px;margin-left: 5px"></i>
+                <i class="fas fa-eye"
+                  style="height: 50px;width: 50px;background: #FFF;  line-height: 50px;  line-height: 50px;margin-left: 5px"></i>
+              </div>
+            </div>
+            <div class="boxd">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h4><a class="a ml">Nature Aut Odit Aut</a></h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6"><span class="ml">$49.00</span></div>
+                <div class="col-lg-6">
+                  <div class="reviews-icon"> <i class="i-color fa fa-star"></i> <i class="i-color fa fa-star"></i> <i
+                      class="i-color fa fa-star"></i> <i class="i-color fa fa-star"></i> <i class="fa fa-star-o"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-xs-6 mb mt">
+          <div class="box3">
+            <div class="box21"> <img src="img/img-08.jpg" class="img-responsive">
+              <div class="hover_box"> <i class="fas fa-shopping-cart"
+                  style="height: 50px;width: 50px;background: #FFF;  line-height: 50px;margin-left: 5px;"></i><i
+                  class="fas fa-heart"
+                  style="height: 50px;width: 50px;background: #FFF;  line-height: 50px;  line-height: 50px;margin-left: 5px"></i>
+                <i class="fas fa-eye"
+                  style="height: 50px;width: 50px;background: #FFF;  line-height: 50px;  line-height: 50px;margin-left: 5px"></i>
+              </div>
+            </div>
+            <div class="boxd">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h4><a class="a ml">Bitae ditae Victa</a></h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6"><span class="ml">$49.00</span></div>
+                <div class="col-lg-6">
+                  <div class="reviews-icon"> <i class="i-color fa fa-star"></i> <i class="i-color fa fa-star"></i> <i
+                      class="i-color fa fa-star"></i> <i class="i-color fa fa-star"></i> <i class="fa fa-star-o"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt mb">
+        <div class="col-lg-3 col-xs-6 mb mt">
+          <div class="box3">
+            <div class="box21"> <img src="img/img-05.jpg" class="img-responsive">
+              <div class="hover_box"> <i class="fas fa-shopping-cart"
+                  style="height: 50px;width: 50px;background: #FFF;  line-height: 50px;margin-left: 5px;"></i><i
+                  class="fas fa-heart"
+                  style="height: 50px;width: 50px;background: #FFF;  line-height: 50px;  line-height: 50px;margin-left: 5px"></i>
+                <i class="fas fa-eye"
+                  style="height: 50px;width: 50px;background: #FFF;  line-height: 50px;  line-height: 50px;margin-left: 5px"></i>
+              </div>
+            </div>
+            <div class="boxd">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h4><a class="a ml">Magni Dollers Eios</a></h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6"><span class="ml">$49.00</span></div>
+                <div class="col-lg-6">
+                  <div class="reviews-icon"> <i class="i-color fa fa-star"></i> <i class="i-color fa fa-star"></i> <i
+                      class="i-color fa fa-star"></i> <i class="i-color fa fa-star"></i> <i class="fa fa-star-o"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-xs-6 mb mt">
+          <div class="box3">
+            <div class="box21"> <img
+                src="img/2019-Boys-Suits-Blazer-Pants-Boy-Blazer-Suits-Kids-Boys-Dresses-Boys-Suits-Set-Formal-Boy.jpg"
+                class="img-responsive">
+              <div class="hover_box"> <i class="fas fa-shopping-cart"
+                  style="height: 50px;width: 50px;background: #FFF;  line-height: 50px;margin-left: 5px;"></i><i
+                  class="fas fa-heart"
+                  style="height: 50px;width: 50px;background: #FFF;  line-height: 50px;  line-height: 50px;margin-left: 5px"></i>
+                <i class="fas fa-eye"
+                  style="height: 50px;width: 50px;background: #FFF;  line-height: 50px;  line-height: 50px;margin-left: 5px"></i>
+              </div>
+            </div>
+            <div class="boxd">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h4><a class="a ml">Formal Boy-suit</a></h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6"><span class="ml">$49.00</span></div>
+                <div class="col-lg-6">
+                  <div class="reviews-icon"> <i class="i-color fa fa-star"></i> <i class="i-color fa fa-star"></i> <i
+                      class="i-color fa fa-star"></i> <i class="i-color fa fa-star"></i> <i class="fa fa-star-o"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-xs-6 mb mt">
+          <div class="box3">
+            <div class="box21"> <img src="img/jamawar-boy-kurta-style.jpg" class="img-responsive">
+              <div class="hover_box"> <i class="fas fa-shopping-cart"
+                  style="height: 50px;width: 50px;background: #FFF;  line-height: 50px;margin-left: 5px;"></i><i
+                  class="fas fa-heart"
+                  style="height: 50px;width: 50px;background: #FFF;  line-height: 50px;  line-height: 50px;margin-left: 5px"></i>
+                <i class="fas fa-eye"
+                  style="height: 50px;width: 50px;background: #FFF;  line-height: 50px;  line-height: 50px;margin-left: 5px"></i>
+              </div>
+            </div>
+            <div class="boxd">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h4><a class="a ml">Jamawar Kurta-Boy</a></h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6"><span class="ml">$49.00</span></div>
+                <div class="col-lg-6">
+                  <div class="reviews-icon"> <i class="i-color fa fa-star"></i> <i class="i-color fa fa-star"></i> <i
+                      class="i-color fa fa-star"></i> <i class="i-color fa fa-star"></i> <i class="fa fa-star-o"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-xs-6 mb mt">
+          <div class="box3">
+            <div class="box21"> <img src="img/41GdSJh3v6L._SY445_QL70_.jpg" class="img-responsive">
+              <div class="hover_box"> <i class="fas fa-shopping-cart"
+                  style="height: 50px;width: 50px;background: #FFF;  line-height: 50px;margin-left: 5px;"></i><i
+                  class="fas fa-heart"
+                  style="height: 50px;width: 50px;background: #FFF;  line-height: 50px;  line-height: 50px;margin-left: 5px"></i>
+                <i class="fas fa-eye"
+                  style="height: 50px;width: 50px;background: #FFF;  line-height: 50px;  line-height: 50px;margin-left: 5px"></i>
+              </div>
+            </div>
+            <div class="boxd">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h4><a class="a ml">Womens Vintage</a></h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6"><span class="ml">$49.00</span></div>
+                <div class="col-lg-6">
+                  <div class="reviews-icon"> <i class="i-color fa fa-star"></i> <i class="i-color fa fa-star"></i> <i
+                      class="i-color fa fa-star"></i> <i class="i-color fa fa-star"></i> <i class="fa fa-star-o"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb mt">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h1 class="text-center"><b>Featured Products</b>
+          </h1>
+        </div>
+        <hr class="lines">
+      </div>
+      <section class="feature-categories section mb">
+
+        <div class="row mb">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="feature-item-content"><img src="img/bg1.jpg" class="img-responsive mb" style="height:300px">
+              <div class="feature-content1">
+                <div class="container">
+                  <br>
+                  <h4>All Global Brands in Single Place</h4><br>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+                    vitae libero. Eaque nostrum magni corporis doloremque!</p>
+                  <p>
+                    <a href="category.html" class="btn btn-common">Explore</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container mt mb">
+        <div class="row text-center">
+          <div class="col-lg-4 container"> <i class="fas fa-shopping-cart ifc"></i>
+            <h3><a href="#" class="a"> 100+ eCommerce Elements</a></h3>
+            <p>Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit.</p>
+            <br>
+            <i class="fas fa-rocket ifc"></i>
+            <h3> <a href="#" class="a">Fast and Optimized</a></h3>
+            <p>Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit.</p>
+            <br>
+            <i class="fas fa-cogs ifc"></i>
+            <h3> <a href="#" class="a"> Completely Customizable</a></h3>
+            <p>Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit.</p>
+            <br>
+          </div>
+          <div class="col-lg-4 container"> <i class="fas fa-life-ring ifc"></i>
+            <h3> <a href="#" class="a"> Quick Support</a></h3>
+            <p>Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit.</p>
+            <br>
+            <i class="fas fa-mobile ifc"></i>
+            <h3> <a href="#" class="a"> Fully Responsive</a></h3>
+            <p>Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit.</p>
+            <br>
+            <i class="fas fa-redo-alt ifc"></i>
+            <h3> <a href="#" class="a"> Free Future Updates</a></h3>
+            <p>Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit.</p>
+            <br>
+          </div>
+          <div class="col-lg-4 container"> <i class="fas fa-business-time ifc"></i>
+            <h3> <a href="#" class="a"> Business Pages</a></h3>
+            <p>Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit.</p>
+            <br>
+            <i class="fas fa-tv ifc"></i>
+            <h3> <a href="#" class="a"> Clean Design</a></h3>
+            <p>Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit.</p>
+            <br>
+            <i class="fas fa-book ifc"></i>
+            <h3><a href="#" class="a"> Full Documented</a></h3>
+            <p>Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit.</p>
+            <br>
+          </div>
+        </div>
+      </div>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner pc">
+          <div class="item active slider pc mb">
+            <div class="row mt">
+              <div class="col-lg-12 col-xs-12">
+                <div class="bpro mt">
+                  <div class="pb"><img src="img/img11.jpg" class="img-responsive"></div>
+                  <div class="pbb">
+                    <h3 class="wc">Jared Arendo</h3>
+                    <p class="wc">-CEO & art director</p>
+                  </div>
+                </div>
+                <div class="spp">
+                  <p class="text-center">Lorem ipsum, in graphical and textual context,<br>
+                    refers to filler text that is placed in a document or visual presentation.<br>
+                    Lorem ipsum is derived from the Latin "dolorem ipsum" roughly translated as "pain itself."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item slider pc">
+            <div class="row mt">
+              <div class="col-lg-12 col-xs-12">
+                <div class="bpro mt">
+                  <div class="pb"><img src="img/img2 (1).jpg" class="img-responsive"></div>
+                  <div class="pbb">
+                    <h3 class="wc">Cedic Vageta</h3>
+                    <p class="wc">-Graphic Design</p>
+                  </div>
+                </div>
+                <div class="spp">
+                  <p class="text-center">Lorem ipsum, in graphical and textual context,<br>
+                    refers to filler text that is placed in a document or visual presentation.<br>
+                    Lorem ipsum is derived from the Latin "dolorem ipsum" roughly translated as "pain itself."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item slider pc">
+            <div class="row mt">
+              <div class="col-lg-12 col-xs-12">
+                <div class="bpro mt">
+                  <div class="pb"><img src="img/img3 (1).jpg" class="img-responsive"></div>
+                  <div class="pbb">
+                    <h3 class="wc">Jonathan Beri</h3>
+                    <p class="wc">-Web Developer</p>
+                  </div>
+                </div>
+                <div class="spp">
+                  <p class="text-center">Lorem ipsum, in graphical and textual context,<br>
+                    refers to filler text that is placed in a document or visual presentation.<br>
+                    Lorem ipsum is derived from the Latin "dolorem ipsum" roughly translated as "pain itself."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev"> </a> <a class="right carousel-control"
+            href="#myCarousel" data-slide="next"> </a>
+        </div>
+      </div>
+      </div>
+      <div class="row mt mb">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h1 class="text-center"><b>Latest Blogs</b>
+          </h1>
+          <hr class="lines">
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-lg-4 mt">
+          <div class="box4">
+            <div class="box5"><img src="img/211.jpg" class="img-responsive"></div>
+            <div class="box31">
+              <h3>Where Trends Going Next</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur<br>
+                adipisicing elit. In atque, qui cum voluptatem<br>\
+                quibusdam dolore veniam....</p>
+              <br>
+              <a href="Blogs.html" class="flink">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt">
+          <div class="box4">
+            <div class="box5"><img src="img/img2 (2).jpg" class="img-responsive"></div>
+            <div class="box31">
+              <h3>Ellie Goulding – High For This</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur<br>
+                adipisicing elit. In atque, qui cum voluptatem<br>
+                quibusdam dolore veniam....</p>
+              <br>
+              <a href="Blogs.html" class="flink">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt mb">
+          <div class="box4">
+            <div class="box5"><img src="img/img3 (2).jpg" class="img-responsive"></div>
+            <div class="box31">
+              <h3>Best Photography of 2017</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur<br>
+                adipisicing elit. In atque, qui cum voluptatem<br>
+                quibusdam dolore veniam....</p>
+              <br>
+              <a href="Blogs.html" class="flink">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      <div class="row mb" style="background: #fff">
+
+        <div class="col-lg-1 col-xs-1 mt"></div>
+        <div class="col-lg-2 col-xs-2 mt"><img src="img/logo-01.png" class="img-responsive"></div>
+        <div class="col-lg-2 col-xs-2 mt"><img src="img/logo-02.png" class="img-responsive"></div>
+        <div class="col-lg-2 col-xs-2 mt"><img src="img/logo-03.png" class="img-responsive"></div>
+        <div class="col-lg-2 col-xs-2 mt"><img src="img/logo-04.png" class="img-responsive"></div>
+        <div class="col-lg-2 col-xs-2 mt"><img src="img/logo-05.png" class="img-responsive"></div>
+        <div class="col-lg-1 col-xs-1 mt"></div>
+
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-xs-12 mb">
+          <div class="boxit">
+            <div class="ibox"><i class="fas fa-plane-departure ifc1"></i></div> Free Shipping Worldwide
+          </div>
+        </div>
+        <div class="col-lg-4 col-xs-12 mb">
+          <div class="boxit">
+            <div class="ibox"><i class="fas fa-headphones ifc1"></i></div> 24/7 Customer Service
+          </div>
+        </div>
+        <div class="col-lg-4 col-xs-12 mb">
+          <div class="boxit">
+            <div class="ibox"><i class="far fa-heart ifc1"></i></div> Easy Return Policy
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="container-fluid fc">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 mt mb">
+            <h2 class="wc">CONTACT US</h2><br>
+            <div>
+              <span> <i class="fas fa-home ifc1"></i></span>
+              <span style="position:absolute;margin-left:10px">94700 korangi 5,<br>
+                Karachi City.</span>
+            </div><br><br>
+            <div>
+              <span><i class="fas fa-phone-alt ifc1"></i></span>
+              <span style="position:absolute;margin-left:10px">+880- 123-456-789 <br>
+                +880- 123-456-789</span>
+            </div><br>
+            <br>
+            <div>
+              <span><i class="far fa-envelope ifc1"></i> </span>
+              <span style="position:absolute;margin-left:10px">ahmedshahzaib21@gmail.com<br>
+                mshahzaibr01@gmail.com</span>
+            </div><br>
+          </div>
+          <div class="col-lg-3 mt mb">
+            <h2 class="wc">USEFUL LINKS</h2><br>
+            <ul>
+              <li><a href="Contact.html" class="wc">Contact</a></li>
+              <br>
+              <li><a href="About.html" class="wc">About</a></li>
+              <br>
+              <li><a href="Blog.html" class="wc">Blog</a></li>
+              <br>
+              <li> <a href="Faqs.html" class="wc"> Faqs</a></li>
+              <br>
+              <li> <a href="Services.html" class="wc"> Services</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 mt mb">
+            <h2 class="wc">PRODUCT TAGS</h2>
+            <br>
+            <a href="Glasses.html" class="flink">Glasses</a>
+            <a href="Jewellery.html" class="flink">Jewellery</a>
+            <a href="Bags.html" class="flink">Hand Bags</a>
+            <a href="Cosmatics.html" class="flink">Cosmatics</a>
+            <a href="Mens.html" class="flink">Mens wear</a>
+            <a href="Womens.html" class="flink">Womens wear</a>
+            <a href="Kids.html" class="flink">kids wear</a>
+            <a href="Team member.html" class="flink">Team Member</a>
+          </div>
+          <div class="col-lg-3 mt mb">
+            <h2 class="wc">NEWSLETTER</h2>
+            <br>
+            <p>Quisque a nunc interdum tellus placerat<br>
+              cursus. Quisque facilisis dapibus facilisis!<br>
+              Vivamus dictum lectus ut porta volutpat.</p>
+            <br>
+            <br>
+            <form>
+              <input type="email" placeholder="Enter Your Email" style="width:250px;height:40px">
+              <br>
+              <br>
+              <button class="btn btnp" style="width:120px;">Subcribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="container-fluid fc">
+      <div class="row gc">
+        <div class="col-lg-6" style="margin-top: 30px;margin-bottom: 30px;"> All copyrights reserved © 2019 - Shahzaib
+        </div>
+        <div class="col-lg-6" style="margin-top: 30px;margin-bottom: 30px;"> <img src="img/payment.png"> </div>
+      </div>
+      <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 50px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
+    </div>
+  </main>
+</body>
+
+</html>
